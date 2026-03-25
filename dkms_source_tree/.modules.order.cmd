@@ -1,0 +1,1 @@
+savedcmd_/var/lib/dkms/cx88/1.0/source/modules.order := {   echo /var/lib/dkms/cx88/1.0/source/cx88.o;   echo /var/lib/dkms/cx88/1.0/source/cx88_alsa.o;   echo /var/lib/dkms/cx88/1.0/source/cx88_dvb.o;   echo /var/lib/dkms/cx88/1.0/source/cx88_vp3054_i2c.o; :; } > /var/lib/dkms/cx88/1.0/source/modules.order

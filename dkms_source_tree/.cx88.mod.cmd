@@ -1,0 +1,1 @@
+savedcmd_/var/lib/dkms/cx88/1.0/source/cx88.mod := printf '%s\n'   cx88-core.o cx88-cards.o cx88-video.o cx88-vbi.o cx88-i2c.o | awk '!x[$$0]++ { print("/var/lib/dkms/cx88/1.0/source/"$$0) }' > /var/lib/dkms/cx88/1.0/source/cx88.mod
