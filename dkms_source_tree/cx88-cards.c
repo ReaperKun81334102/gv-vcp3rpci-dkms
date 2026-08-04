@@ -334,10 +334,10 @@ static const struct cx88_board cx88_boards[] = {
 			.type   = CX88_VMUX_COMPOSITE2,
 			.vmux   = 1,
 		}, {
-                        .type   = CX88_VMUX_SVIDEO,
-                        .vmux   = 2,
-                } },
-        },
+			.type   = CX88_VMUX_SVIDEO,
+			.vmux   = 2,
+		} },
+	},
 	[CX88_BOARD_PROLINK_PLAYTVPVR] = {
 		.name           = "Prolink PlayTV PVR",
 		.tuner_type     = TUNER_PHILIPS_FM1236_MK3,
@@ -2339,7 +2339,7 @@ static const struct cx88_board cx88_boards[] = {
 		} },
 		.mpeg           = CX88_MPEG_DVB,
 	},
-        [CX88_BOARD_IODATA_GVVCP3RPCI] = {
+      [CX88_BOARD_IODATA_GVVCP3RPCI] = {
                 .name           = "IODATA GV-VCP3R/PCI",
                 .tuner_type     = UNSET,
                 .radio_type     = UNSET,
@@ -2417,12 +2417,8 @@ static const struct cx88_subid cx88_subids[] = {
 	}, {
 		.subvendor = 0x10fc,
 		.subdevice = 0xd003,
-                .card      = CX88_BOARD_MSI_TVANYWHERE_MASTER,
-        }, {
-                .subvendor = 0x10fc,
-                .subdevice = 0xd003,
-                .card      = CX88_BOARD_IODATA_GVVCP3PCI,
-        }, {
+		.card      = CX88_BOARD_IODATA_GVVCP3PCI,
+	}, {
 		.subvendor = 0x1043,
 		.subdevice = 0x4823,  /* with mpeg encoder */
 		.card      = CX88_BOARD_ASUS_PVR_416,
